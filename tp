@@ -1,0 +1,35 @@
+Punto numero 1 
+ 
+
+superficieTriangulo :: Int -> Int ->Int 
+
+superficieTriangulo base altura = (base * altura) /2 
+
+ 
+Punto numero 2 
+
+esBisiesto :: Int -> Bool 
+
+esBisiesto anio = mod anio 4 == 0 
+
+ 
+Punto numero 3 
+
+potenciaDeUnNumero :: Int -> Int 
+
+potenciaDeUnNumero 0 = 1 
+
+potenciaDeUnNumero n = n * potenciaDeUnNumero (n - 1) 
+
+
+Ejemplos de consulta 
+
+EsBisiesto 2004 = True 
+
+EsBisiesto 2023 = False 
+
+PotenciaDeUnNumero 2 = 4 
+
+PotenciaDeUnNumero 3 = 27 
+
+SuperficieTriangulo 2 4 = 4 
